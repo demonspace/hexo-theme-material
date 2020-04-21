@@ -20,7 +20,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo: "https://diem.im"
+    logo: "https://www.jasonzhang.xyz"
 
 
 # ---------------------------------------------------------------
@@ -70,8 +70,8 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    logo: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/christmas-2902497_1280.png"
+    avatar: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/e57d81529822720e4c0c21bf76cb0a46f01fabc4.jpg"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
@@ -196,7 +196,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:jaanaizhang@gmail.com"
             icon: email
     homepage:
         use: true
@@ -243,8 +243,8 @@ sidebar:
         use: true
         divider: false
     footer:
-        divider: true
-        theme: true
+        divider: false
+        theme: false
         support: false
         feedback: false
         material: false

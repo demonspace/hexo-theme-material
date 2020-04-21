@@ -212,7 +212,7 @@ sidebar:
         divider: false
     pages:
         归档:
-            link: "/time/line/"
+            link: "/timeline/"
             icon: inbox
             divider: false
         标签:

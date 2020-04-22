@@ -169,7 +169,7 @@ toc:
 sns:
     email: jaanaizhang@gmail.com
     facebook:
-    twitter:
+    twitter: https://twitter.com/jaanaizhang
     googleplus:
     weibo:
     instagram:
@@ -207,9 +207,9 @@ sidebar:
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
         归档:
             link: "/timeline/"
@@ -218,10 +218,6 @@ sidebar:
         标签:
             link: "/tags/"
             icon: label
-            divider: false
-        生活:
-            link: "/life/"
-            icon: book
             divider: false
         友链:
             link: "/friends"

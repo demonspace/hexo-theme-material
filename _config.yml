@@ -335,7 +335,7 @@ vendors:
 #   For example
 #       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
     # jQuery 2.2.0
-    jquery: https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js
+    jquery: https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js
     # nprogress 0.2.0
     nprogress:
     # FontAwesome 4.5.0

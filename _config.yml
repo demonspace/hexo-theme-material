@@ -71,8 +71,8 @@ background:
 # Images Settings
 img:
     logo: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/christmas-2902497_1280.png"
-    avatar: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/e57d81529822720e4c0c21bf76cb0a46f01fabc4.jpg"
-    daily_pic: "/img/daily_pic.png"
+    avatar: "https://ae01.alicdn.com/kf/HTB1DdGHXizxK1RjSspj763S.pXax.png"
+    daily_pic: "https://ae01.alicdn.com/kf/HTB1MAe.aifrK1RjSspb7634pFXap.png"
     sidebar_header: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/sidebar-head.jpg"
     random_thumbnail: "/img/random/material-"
     footer_image:

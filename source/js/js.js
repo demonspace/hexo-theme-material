@@ -1352,7 +1352,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         d = function(b) {
             a(b).on("click", c, this.close)
         };
-    d.VERSION = "3.2.0", d.prototype.close = function(b) {
+    d.VERSION = "4.4.1", d.prototype.close = function(b) {
         function c() {
             f.detach().trigger("closed.bs.alert").remove()
         }
@@ -1380,7 +1380,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(b, d) {
         this.$element = a(b), this.options = a.extend({}, c.DEFAULTS, d), this.isLoading = !1
     };
-    c.VERSION = "3.2.0", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.DEFAULTS = {
         loadingText: "loading..."
     }, c.prototype.setState = function(b) {
         var c = "disabled",
@@ -1421,7 +1421,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(b, c) {
         this.$element = a(b).on("keydown.bs.carousel", a.proxy(this.keydown, this)), this.$indicators = this.$element.find(".carousel-indicators"), this.options = c, this.paused = this.sliding = this.interval = this.$active = this.$items = null, "hover" == this.options.pause && this.$element.on("mouseenter.bs.carousel", a.proxy(this.pause, this)).on("mouseleave.bs.carousel", a.proxy(this.cycle, this))
     };
-    c.VERSION = "3.2.0", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.DEFAULTS = {
         interval: 5e3,
         pause: "hover",
         wrap: !0
@@ -1518,7 +1518,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(b, d) {
         this.$element = a(b), this.options = a.extend({}, c.DEFAULTS, d), this.transitioning = null, this.options.parent && (this.$parent = a(this.options.parent)), this.options.toggle && this.toggle()
     };
-    c.VERSION = "3.2.0", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.DEFAULTS = {
         toggle: !0
     }, c.prototype.dimension = function() {
         var a = this.$element.hasClass("width");
@@ -1603,7 +1603,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         g = function(b) {
             a(b).on("click.bs.dropdown", this.toggle)
         };
-    g.VERSION = "3.2.0", g.prototype.toggle = function(d) {
+    g.VERSION = "4.4.1", g.prototype.toggle = function(d) {
         var e = a(this);
         if (!e.is(".disabled, :disabled")) {
             var f = c(e),
@@ -1656,7 +1656,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             this.$element.trigger("loaded.bs.modal")
         }, this))
     };
-    c.VERSION = "3.2.0", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.DEFAULTS = {
         backdrop: !0,
         keyboard: !0,
         show: !0
@@ -1753,7 +1753,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(a, b) {
         this.type = this.options = this.enabled = this.timeout = this.hoverState = this.$element = null, this.init("tooltip", a, b)
     };
-    c.VERSION = "3.2.0", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.DEFAULTS = {
         animation: !0,
         placement: "top",
         selector: !1,
@@ -1969,7 +1969,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         this.init("popover", a, b)
     };
     if (!a.fn.tooltip) throw new Error("Popover requires tooltip.js");
-    c.VERSION = "3.2.0", c.DEFAULTS = a.extend({}, a.fn.tooltip.Constructor.DEFAULTS, {
+    c.VERSION = "4.4.1", c.DEFAULTS = a.extend({}, a.fn.tooltip.Constructor.DEFAULTS, {
         placement: "right",
         trigger: "click",
         content: "",
@@ -2012,7 +2012,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             e || d.data("bs.scrollspy", e = new b(this, f)), "string" == typeof c && e[c]()
         })
     }
-    b.VERSION = "3.2.0", b.DEFAULTS = {
+    b.VERSION = "4.4.1", b.DEFAULTS = {
         offset: 10
     }, b.prototype.getScrollHeight = function() {
         return this.$scrollElement[0].scrollHeight || Math.max(this.$body[0].scrollHeight, document.documentElement.scrollHeight)
@@ -2071,7 +2071,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(b) {
         this.element = a(b)
     };
-    c.VERSION = "3.2.0", c.prototype.show = function() {
+    c.VERSION = "4.4.1", c.prototype.show = function() {
         var b = this.element,
             c = b.closest("ul:not(.dropdown-menu)"),
             d = b.data("target");
@@ -2118,7 +2118,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var c = function(b, d) {
         this.options = a.extend({}, c.DEFAULTS, d), this.$target = a(this.options.target).on("scroll.bs.affix.data-api", a.proxy(this.checkPosition, this)).on("click.bs.affix.data-api", a.proxy(this.checkPositionWithEventLoop, this)), this.$element = a(b), this.affixed = this.unpin = this.pinnedOffset = null, this.checkPosition()
     };
-    c.VERSION = "3.2.0", c.RESET = "affix affix-top affix-bottom", c.DEFAULTS = {
+    c.VERSION = "4.4.1", c.RESET = "affix affix-top affix-bottom", c.DEFAULTS = {
         offset: 0,
         target: window
     }, c.prototype.getPinnedOffset = function() {

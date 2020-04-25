@@ -70,10 +70,10 @@ background:
 
 # Images Settings
 img:
-    logo: "https://ae01.alicdn.com/kf/HTB1ZYzlajnuK1RkSmFP763uzFXa1.png"
-    avatar: "https://ae01.alicdn.com/kf/HTB1DdGHXizxK1RjSspj763S.pXax.png"
-    daily_pic: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/head-welcome.jpg"
-    sidebar_header: "https://blog-1257454527.cos.ap-chengdu.myqcloud.com/sidebar-head.jpg"
+    logo: "https://ae01.alicdn.com/kf/H4d3e97b6376e406aa93ff6950a79ab23q.png"
+    avatar: "https://ae01.alicdn.com/kf/H158e1593c7714ad283bff2efdf0a1c207.jpg"
+    daily_pic: "https://ae01.alicdn.com/kf/Hf063817ce2574eb3acf5b089c891ca63I.png"
+    sidebar_header: "https://ae01.alicdn.com/kf/Ha2aa59ecdd024971824824b86c176c79M.jpg"
     random_thumbnail: "/img/random/material-"
     footer_image:
         #upyun_logo:

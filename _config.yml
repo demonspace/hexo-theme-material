@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "https://images-1257454527.cos.ap-chengdu.myqcloud.com/20180903093336152_easyicon_net_32.ico"
-    high_res_favicon: "https://images-1257454527.cos.ap-chengdu.myqcloud.com/20180903093336152_easyicon_net_32.ico"
-    apple_touch_icon: "https://images-1257454527.cos.ap-chengdu.myqcloud.com/20180903093336152_easyicon_net_32.ico"
+    favicon: "https://img02.sogoucdn.com/app/a/100520146/406d308caf8fd19e64746dadee126f78"
+    high_res_favicon: "https://img02.sogoucdn.com/app/a/100520146/406d308caf8fd19e64746dadee126f78"
+    apple_touch_icon: "https://img02.sogoucdn.com/app/a/100520146/406d308caf8fd19e64746dadee126f78"
     keywords: Blog
     site_verification:
         google:

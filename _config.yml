@@ -227,6 +227,10 @@ sidebar:
             link: "/about/"
             icon: person
             divider: false
+        简历:
+            link: "/resume/"
+            icon: format_align_left
+            divider: false
         订阅:
             link: "/atom.xml"
             icon: rss_feed
